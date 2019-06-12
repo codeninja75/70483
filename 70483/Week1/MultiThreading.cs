@@ -44,5 +44,79 @@
                 Parallel.Invoke(() => Task1(), () => Task2());
             }
         }
+        public static void Parallel_ForEach()
+        {
+
+        }
+        public static void Parallel_For()
+        {
+
+        }
+        public static void Parallel_LoopState()
+        {
+
+        }
+        public static void Parallel_LINQ()
+        {
+
+        }
+        public static void ForAll()
+        {
+
+        }
+        public static void TaskUse()
+        {
+
+        }
+        public static void TaskReturnValues()
+        {
+
+        }
+        public static void TaskWaitAll()
+        {
+
+        }
+        public static void TaskWithContinuations()
+        {
+
+        }
+        public static void ChildTasks()
+        {
+
+        }
+        
+        public static void RawThread()
+        {
+
+        }
+        public static void ThreadAndLambda()
+        {
+
+        }
+        public static void PassingDataIntoAThread()
+        {
+
+        }
+        public static void AbortThreads()
+        {
+
+        }
+        public static void ThreadJoins()
+        {
+
+        }
+        public static void ThreadLocal()
+        {
+
+        }
+        public static void ThreadContext()
+        {
+
+        }
+        public static void ThreadPools()
+        {
+
+        }
+
     }
 }
