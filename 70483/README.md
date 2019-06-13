@@ -1,5 +1,6 @@
 # 70483
-
+https://www.kaplanittraining.com/certification/microsoft/70-483
+https://www.amazon.com/Exam-Ref-70-483-Programming-C-ebook/dp/B07GH59XN8/ref=sr_1_1?keywords=70-483&qid=1560404569&s=digital-text&sr=1-1
 Code for a 70-483 class
 Week 1:
 Skill 1.1 - Implement multithreading and async procesing
