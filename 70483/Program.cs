@@ -38,6 +38,13 @@ namespace DotNet.E70483
             i++;
             list.Add(i, new MenuOptions() { Description = "Program Flow", OptionId = i, Method = DotNet.E70483.ProgramFlow.ImplementProgramFlow.Seriously});
             i++;
+            list.Add(i, new MenuOptions() { Description = "Events", OptionId = i, Method = DotNet.E70483.ProgramFlow.ImplementEventsAndCallbacks.CantStopTheSignal });
+            i++;
+            list.Add(i, new MenuOptions() { Description = "Exceptions", OptionId = i, Method = DotNet.E70483.ProgramFlow.ExceptionHandling.ThrowAllTheExceptions });
+            i++;
+            list.Add(i, new MenuOptions() { Description = "Type exercises", OptionId = i, Method = DotNet.E70483.CreateUseTypes.CreateTypes.ExerciseTypes });
+            i++;
+
             return list;
         }
         static void Main(string[] args)
