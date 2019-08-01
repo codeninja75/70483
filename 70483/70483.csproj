@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -6,6 +6,52 @@
     <RootNamespace>DotNet.E70483</RootNamespace>
     <AssemblyName>DotNet.E70483</AssemblyName>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="OldCode\13.Program.cs" />
+    <Compile Remove="OldCode\14.Program.cs" />
+    <Compile Remove="OldCode\15.16.Program.cs" />
+    <Compile Remove="OldCode\Chap02.Program.cs" />
+    <Compile Remove="OldCode\Chap03.Program.cs" />
+    <Compile Remove="OldCode\Chap04.Program.cs" />
+    <Compile Remove="OldCode\Chap05.encryption.cs" />
+    <Compile Remove="OldCode\Chap05.Program.cs" />
+    <Compile Remove="OldCode\Chap06.DrawForm.cs" />
+    <Compile Remove="OldCode\Chap06.Form1.cs" />
+    <Compile Remove="OldCode\Chap06.MainForm.cs" />
+    <Compile Remove="OldCode\Chap06.PieChartElement.cs" />
+    <Compile Remove="OldCode\Chap06.Program.cs" />
+    <Compile Remove="OldCode\Chap07.Program.cs" />
+    <Compile Remove="OldCode\Chap08.Program.cs" />
+    <Compile Remove="OldCode\Chap08.ProjectInstaller.cs" />
+    <Compile Remove="OldCode\Chap08.Service1.cs" />
+    <Compile Remove="OldCode\Chap1.Program.cs" />
+    <Compile Remove="OldCode\Chap11.Program.cs" />
+    <Compile Remove="OldCode\Chap12.Program.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="OldCode\13.Program.cs" />
+    <None Include="OldCode\14.Program.cs" />
+    <None Include="OldCode\15.16.Program.cs" />
+    <None Include="OldCode\Chap02.Program.cs" />
+    <None Include="OldCode\Chap03.Program.cs" />
+    <None Include="OldCode\Chap04.Program.cs" />
+    <None Include="OldCode\Chap05.encryption.cs" />
+    <None Include="OldCode\Chap05.Program.cs" />
+    <None Include="OldCode\Chap06.DrawForm.cs" />
+    <None Include="OldCode\Chap06.Form1.cs" />
+    <None Include="OldCode\Chap06.MainForm.cs" />
+    <None Include="OldCode\Chap06.PieChartElement.cs" />
+    <None Include="OldCode\Chap06.Program.cs" />
+    <None Include="OldCode\Chap07.Program.cs" />
+    <None Include="OldCode\Chap08.Program.cs" />
+    <None Include="OldCode\Chap08.ProjectInstaller.cs" />
+    <None Include="OldCode\Chap08.Service1.cs" />
+    <None Include="OldCode\Chap1.Program.cs" />
+    <None Include="OldCode\Chap11.Program.cs" />
+    <None Include="OldCode\Chap12.Program.cs" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="System.CodeDom" Version="4.5.0" />

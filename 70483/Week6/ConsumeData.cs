@@ -2,6 +2,9 @@
 {
     public class ConsumeData
     {
+        public void GetAllTheData()
+        {
 
+        }
     }
 }
